@@ -6,11 +6,11 @@
                 <Content>
                     <Card :dis-hover="true">
                         <div style="min-height: 800px;">
-                            <div style="width: 70%;margin: 0 auto" @click="doQuery(1)">
+                            <div style="width: 80%;margin: 0 auto" @click="doQuery(1)">
                                 <Input size="large" v-model="query.title" search enter-button placeholder="请输入关键字开始找房"/>
                             </div>
                             <div style="height: 30px"></div>
-                            <div style="width: 70%;margin: 0 auto;background: #fbfbfb;padding: 20px">
+                            <div style="width: 80%;margin: 0 auto;background: #fbfbfb;padding: 20px">
                                 <Row>
                                     <Col span="2" style="font-weight: bold;text-align:center">售价</Col>
                                     <Col span="2">
@@ -193,7 +193,7 @@
                             </div>
                             <div style="height: 20px"></div>
 
-                            <div style="width: 70%;margin: 0 auto;padding: 20px 0px">
+                            <div style="width: 80%;margin: 0 auto;padding: 20px 0px">
                                 <Tabs type="card">
                                     <TabPane label="最新">
                                         <div v-for="item of housePage.list">
